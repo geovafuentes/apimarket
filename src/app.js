@@ -15,8 +15,8 @@ app.use((req, res, next) => {
  res.status(404).json({
  message: "Favor realizar pruebas en los siguientes endpoints:",
  endpoints: [
- "https://mysql://root:EfgBQjqyAligGacKmGooQglOxPPwkMNY@centerbeam.proxy.rlwy.net:31807/railway/usuarios",
- "https://mysql://root:EfgBQjqyAligGacKmGooQglOxPPwkMNY@centerbeam.proxy.rlwy.net:31807/railway/productos"
+ "https://apimarket-production-2b1b.up.railway.app/usuarios",
+ "https://apimarket-production-2b1b.up.railway.app/productos"
  ]
  });
 });
